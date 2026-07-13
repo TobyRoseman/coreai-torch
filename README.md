@@ -1,6 +1,6 @@
 # Core AI PyTorch Extensions (coreai-torch)
 
-Core AI PyTorch Extensions (`coreai-torch`) is a Python package that bridges PyTorch and Core AI. Use it to bring up an existing PyTorch model into Core AI IR, or to author Core AI models directly from PyTorch by composing the built-in composite op library (`coreai_torch.composite_ops`), authoring new ops via `register_torch_lowering`, and authoring inline Metal GPU kernels via `TorchMetalKernel`. The resulting IR can be compiled and executed efficiently by the Core AI inference stack.
+TEST. TEST. Core AI PyTorch Extensions (`coreai-torch`) is a Python package that bridges PyTorch and Core AI. Use it to bring up an existing PyTorch model into Core AI IR, or to author Core AI models directly from PyTorch by composing the built-in composite op library (`coreai_torch.composite_ops`), authoring new ops via `register_torch_lowering`, and authoring inline Metal GPU kernels via `TorchMetalKernel`. The resulting IR can be compiled and executed efficiently by the Core AI inference stack.
 
 🔗 Jump to: [Getting started](#getting-started) · [Documentation](#documentation) · [Contributing](#contributing) · [Support](#support) · [License](#license)
 
