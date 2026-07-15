@@ -42,12 +42,6 @@ test = [
     { include-group = "latest-tested-torch-versions" },
 ]
 
-latest-tested-torch-versions = [
-    "torch==2.13.0",
-    "torchaudio==2.11.0",
-    "torchvision==0.28.0",
-]
-
 docs = [
     "sphinx>=7.0",
     "shibuya==2026.5.19",
@@ -62,6 +56,14 @@ dev = [
     "pre-commit>=4.0",
     "ruff>=0.12.0",
 ]
+
+[dependency-groups]
+latest-tested-torch-versions = [
+    "torch==2.13.0",
+    "torchaudio==2.11.0",
+    "torchvision==0.28.0",
+]
+
 
 [project.urls]
 Homepage = "https://github.com/apple/coreai-torch"
